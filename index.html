@@ -202,7 +202,7 @@
 	 		this.Div.style.height = vHeight + ViewSpeed;
 			this.Div.style.top = viewY + PopUpHeight -  (vHeight + ViewSpeed);
 			if (parseInt(this.Div.style.height) < PopUpHeight){
-				setTimeout(function(){ PopUpField.View((vHeight + ViewSpeed)) },10);
+				PopUpField.View((vHeight + ViewSpeed));
 			}
 			else{
 				//質問エリアにフォーカスをセット
